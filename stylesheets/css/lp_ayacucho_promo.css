@@ -306,7 +306,8 @@ input {
  */
 input[type="checkbox"],
 input[type="radio"] {
-  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
   /* 1 */
   padding: 0;
   /* 2 */ }
@@ -329,7 +330,6 @@ input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
   -moz-box-sizing: content-box;
-  -webkit-box-sizing: content-box;
   /* 2 */
   box-sizing: content-box; }
 
@@ -389,16 +389,131 @@ th {
   padding: 0; }
 
 html {
-  box-sizing: border-box; }
+  -moz-box-sizing: border-box;
+       box-sizing: border-box; }
 
 *, *:before, *:after {
-  box-sizing: inherit; }
+  -moz-box-sizing: inherit;
+       box-sizing: inherit; }
 
 /* ==========================================================================
 
 	LAYOUT
 
 ========================================================================== */
+/* =======================================
+	BEGIN NESTING
+======================================= */
+#lp-wrapper {
+  margin: 0 auto;
+  max-width: 1170px;
+  width: 100%;
+  /* ------------------------------------ */
+  /* ------------------------------------ */ }
+  #lp-wrapper * {
+    -moz-box-sizing: border-box;
+         box-sizing: border-box; }
+  #lp-wrapper .lp-header {
+    height: 409px;
+    position: relative; }
+  #lp-wrapper .lp-header-logo {
+    position: absolute;
+    top: 3em;
+    left: 3em; }
+  #lp-wrapper .lp-header-text {
+    margin: 0;
+    position: absolute;
+    bottom: 95px;
+    left: 1.6em;
+    width: 40.1709401709%; }
+  #lp-wrapper .lp-header-icons {
+    position: absolute;
+    bottom: 2em;
+    left: 3em; }
+  #lp-wrapper .lp-subheader {
+    margin: 50px auto 0;
+    width: 74.358974359%; }
+  #lp-wrapper .lp-main-navigation {
+    display: none; }
+  #lp-wrapper .lp-combination-container {
+    height: 800px;
+    margin-top: 3.125em;
+    padding: 1.875em 1.25em;
+    position: relative;
+    width: 100%; }
+    #lp-wrapper .lp-combination-container + .lp-combination-container {
+      margin-top: 100px; }
+  #lp-wrapper .lp-combination-title {
+    height: 42px;
+    margin: 0 auto;
+    width: 170px; }
+  #lp-wrapper .lp-combination {
+    height: 300px;
+    margin: 30px auto 0;
+    position: relative;
+    width: 100%; }
+    #lp-wrapper .lp-combination + .lp-combination {
+      margin-top: 60px; }
+  #lp-wrapper .lp-gender-indicator {
+    position: absolute;
+    top: -20px; }
+  #lp-wrapper .lp-product-container {
+    float: left;
+    height: 94%;
+    margin-right: 2.7em;
+    position: relative;
+    bottom: -20px;
+    width: 32.7433628319%; }
+  #lp-wrapper .lp-product-image, #lp-wrapper .lp-product-info {
+    float: left; }
+  #lp-wrapper .lp-product-image {
+    position: absolute;
+    bottom: 0;
+    z-index: 10; }
+  #lp-wrapper .lp-product-info {
+    padding-left: 205px;
+    position: relative;
+    width: 100%;
+    height: 100%; }
+  #lp-wrapper .lp-pricelabel {
+    margin-top: 30px;
+    width: 80px; }
+    #lp-wrapper .lp-pricelabel .lp-pricelabel-top {
+      height: 45px;
+      padding-top: 4px;
+      margin-bottom: 1px; }
+    #lp-wrapper .lp-pricelabel .lp-pricelabel-bottom {
+      height: 34px; }
+  #lp-wrapper .lp-swatches {
+    position: absolute;
+    bottom: 2em; }
+    #lp-wrapper .lp-swatches .lp-swatch {
+      float: left;
+      height: 30px;
+      margin-right: 5px;
+      width: 30px; }
+  #lp-wrapper .lp-combo-container {
+    float: right;
+    margin-right: 50px;
+    position: relative;
+    width: 230px; }
+    #lp-wrapper .lp-combo-container .lp-pricelabel {
+      border: 1px solid #A2AEB0;
+      position: absolute;
+      right: -50px;
+      top: 75px; }
+      #lp-wrapper .lp-combo-container .lp-pricelabel .lp-pricelabel-top {
+        border-bottom: 1px solid #A2AEB0;
+        margin-bottom: 0; }
+  #lp-wrapper .lp-pin {
+    margin-left: -10px;
+    position: absolute;
+    top: -15px;
+    left: 50%; }
+
+/* =======================================
+	END NESTING
+======================================= */
 /* ==========================================================================
 
 	MODULES
@@ -414,3 +529,112 @@ html {
 	THEME
 
 ========================================================================== */
+/* =======================================
+	BEGIN NESTING
+======================================= */
+#lp-wrapper {
+  color: #292929;
+  font-size: 100%;
+  font-family: 'Open Sans';
+  /* ------------------------------------ */
+  /* ------------------------------------ */ }
+  #lp-wrapper h1 {
+    font-size: 200%; }
+  #lp-wrapper h2 {
+    font-size: 187.5%; }
+  #lp-wrapper h3 {
+    font-size: 175%; }
+  #lp-wrapper h4 {
+    font-size: 162.5%; }
+  #lp-wrapper h5 {
+    font-size: 100%;
+    font-weight: bold; }
+  #lp-wrapper p {
+    font-size: 100%; }
+  #lp-wrapper .lp-header {
+    background: url(../../../images/header.jpg) no-repeat; }
+    #lp-wrapper .lp-header:after {
+      background: url(../../../images/schaduw.png) no-repeat center center;
+      content: "";
+      height: 30px;
+      max-width: 1170px;
+      position: absolute;
+      bottom: -30px;
+      width: 100%;
+      z-index: -1; }
+  #lp-wrapper .lp-header-text {
+    color: #ffffff;
+    font-family: 'Serifa BT';
+    font-weight: 100;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.4); }
+  #lp-wrapper .lp-subheader {
+    text-align: center; }
+  #lp-wrapper .lp-combination-container {
+    background: url(../../../images/section_bg.jpg); }
+    #lp-wrapper .lp-combination-container:after {
+      background: url(../../../images/schaduw.png) no-repeat center center;
+      content: "";
+      height: 30px;
+      max-width: 1170px;
+      position: absolute;
+      bottom: -30px;
+      left: 0;
+      width: 100%;
+      z-index: -1; }
+  #lp-wrapper .lp-combination-title {
+    color: transparent;
+    font-size: 0;
+    line-height: 0;
+    text-indent: -9999px; }
+  #lp-wrapper .lp-combination-title-jd {
+    background: url(../../../images/titel_jas_donsjas.png);
+    background-size: contain; }
+  #lp-wrapper .lp-combination-title-jf {
+    background: url(../../../images/titel_jas_fleece.png);
+    background-size: contain; }
+  #lp-wrapper .lp-pricelabel {
+    color: #ffffff;
+    text-align: center; }
+    #lp-wrapper .lp-pricelabel .lp-pricelabel-top {
+      background: #3D3D3D;
+      box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.8); }
+      #lp-wrapper .lp-pricelabel .lp-pricelabel-top .lp-pricelabel-pricetype {
+        font-weight: bold;
+        text-transform: uppercase; }
+      #lp-wrapper .lp-pricelabel .lp-pricelabel-top .lp-pricelabel-initial {
+        font-size: 80%;
+        position: relative;
+        top: -4px;
+        text-decoration: line-through; }
+    #lp-wrapper .lp-pricelabel .lp-pricelabel-bottom {
+      background: #AA171C;
+      box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.5); }
+      #lp-wrapper .lp-pricelabel .lp-pricelabel-bottom .lp-pricelabel-actual {
+        font-size: 162.5%;
+        position: relative;
+        top: -2px;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3); }
+    #lp-wrapper .lp-pricelabel .currency {
+      font-size: .6em;
+      font-weight: 100;
+      margin-right: 2px; }
+  #lp-wrapper .lp-swatches .lp-swatch {
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4); }
+    #lp-wrapper .lp-swatches .lp-swatch.lp-swatch-lightblue {
+      background: #2294DC; }
+    #lp-wrapper .lp-swatches .lp-swatch.lp-swatch-turquoise {
+      background: #6AD0C8; }
+    #lp-wrapper .lp-swatches .lp-swatch.lp-swatch-red {
+      background: #BE232B; }
+    #lp-wrapper .lp-swatches .lp-swatch.lp-swatch-black {
+      background: #202022; }
+    #lp-wrapper .lp-swatches .lp-swatch.lp-swatch-oilblue {
+      background: #4C7D9C; }
+  #lp-wrapper .lp-combo-image {
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2); }
+
+/* =======================================
+	END NESTING
+======================================= */

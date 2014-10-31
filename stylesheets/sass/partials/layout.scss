@@ -3,3 +3,187 @@
 	LAYOUT
 
 ========================================================================== */
+
+/* =======================================
+	BEGIN NESTING
+======================================= */
+
+#lp-wrapper{
+	margin: 0 auto;
+	max-width: 1170px;
+	width: 100%;
+
+	*{
+		box-sizing: border-box;
+	}
+
+/* ------------------------------------ */
+
+//HEADER
+
+.lp-header{
+	height: 409px;
+	position: relative;				// HEADER POSITIONING-SCOPE
+}
+
+.lp-header-logo{
+	position: absolute;
+		top: 3em;
+		left: 3em;
+}
+
+.lp-header-text{
+	margin: 0;
+	position: absolute;
+		bottom: 95px;
+		left: 1.6em;
+	width: percentage(470/1170);
+}
+
+.lp-header-icons{
+	position: absolute;
+		bottom: 2em;
+		left: 3em;
+}
+
+// SUBHEADER
+
+.lp-subheader{
+	margin: 50px auto 0;
+	width: percentage(870/1170);
+}
+
+// NAV 
+.lp-main-navigation{
+	display: none;						// TIJDELIJK HIDEN NAVIGATIE
+}
+
+// COMBINATION
+
+.lp-combination-container{
+	height: 800px;
+	margin-top: 3.125em;
+	padding: 1.875em 1.25em; 		// 30px
+	position: relative;				// COMBINATION CONTAINER POSITIONING-SCOPE
+	width: 100%;
+
+	&+ .lp-combination-container{
+		margin-top: 100px;
+	}
+}
+
+.lp-combination-title{
+	height: 42px;
+	margin: 0 auto;
+	width: 170px;
+}
+
+.lp-combination{
+	height: 300px;
+	margin: 30px auto 0;
+	position: relative;				// COMBINATION POSITIONING-SCOPE
+	width: 100%;
+
+	&+ .lp-combination{
+		margin-top: 60px;
+	}
+}
+
+.lp-gender-indicator{
+	position: absolute;
+		top: -20px;
+}
+
+.lp-product-container{
+	float: left;
+	height: 94%;
+	margin-right: 2.7em;
+	position: relative;
+		bottom: -20px;
+	width: percentage(370/1130);
+}
+
+.lp-product-image, .lp-product-info{
+	float: left;
+}
+
+.lp-product-image{
+	//margin-right: 1.4em;
+	position: absolute;
+		bottom: 0;
+	z-index: 10;
+}
+
+.lp-product-info{
+	padding-left: 205px;
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.lp-pricelabel{
+	margin-top: 30px;
+	width: 80px;
+
+	.lp-pricelabel-top{
+		height: 45px;
+		padding-top: 4px;
+		margin-bottom: 1px;
+	}
+
+	.lp-pricelabel-bottom{
+		height: 34px;
+	}
+}
+
+.lp-swatches{
+	position: absolute;
+		bottom: 2em;
+
+	.lp-swatch{
+		float: left;
+		height: 30px;
+		margin-right: 5px;
+		width: 30px;
+	}
+}
+
+.lp-combo-container{
+	float: right;
+	margin-right: 50px;
+	position: relative;
+	width: 230px;
+
+	.lp-pricelabel{
+		border: 1px solid #A2AEB0;
+		position: absolute;
+			right: -50px;
+			top: 75px;
+
+		.lp-pricelabel-top{
+			border-bottom: 1px solid #A2AEB0;
+			margin-bottom: 0;
+		}
+	}
+}
+
+.lp-combo-image{
+
+}
+
+.lp-pin{
+	margin-left: -10px;
+	position: absolute;
+		top: -15px;
+		left: 50%;
+}
+
+
+
+/* ------------------------------------ */
+
+}
+
+/* =======================================
+	END NESTING
+======================================= */
