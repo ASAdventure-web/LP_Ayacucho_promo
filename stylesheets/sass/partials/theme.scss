@@ -3,3 +3,198 @@
 	THEME
 
 ========================================================================== */
+
+/* =======================================
+	BEGIN NESTING
+======================================= */
+
+#lp-wrapper{
+	color: #292929;
+	font-size: 100%;
+	font-family: 'Open Sans';
+
+	h1{
+		font-size: 200%; // 32px
+	}
+
+	h2{
+		font-size: 187.5%; // 30px
+	}
+
+	h3{
+		font-size: 175%; // 28px
+	}
+
+	h4{
+		font-size: 162.5%; // 26px
+	}
+
+	h5{
+		font-size: 100%;
+		font-weight: bold;
+	}
+
+	p{
+		font-size: 100%; // 16px
+	}
+
+/* ------------------------------------ */
+
+// HEADER
+.lp-header{
+	background: url(../../../images/header.jpg) no-repeat;
+
+	&:after{
+		background: url(../../../images/schaduw.png) no-repeat center center;
+		content: "";
+		height: 30px;
+		max-width: 1170px;
+		position: absolute;
+			bottom: -30px;
+		width: 100%;
+		z-index: -1;
+	}
+}
+
+.lp-header-logo{
+
+}
+
+.lp-header-text{
+	color: #ffffff;
+	font-family: 'Serifa BT';
+	font-weight: 100;
+	text-shadow: 1px 1px 0 rgba(0,0,0,0.4);
+}
+
+// SUBHEADER
+.lp-subheader{
+	text-align: center;
+}
+
+// COMBINATION
+.lp-combination-container{
+	background: url(../../../images/section_bg.jpg);
+
+	&:after{
+		background: url(../../../images/schaduw.png) no-repeat center center;
+		content: "";
+		height: 30px;
+		max-width: 1170px;
+		position: absolute;
+			bottom: -30px;
+			left: 0;
+		width: 100%;
+		z-index: -1;
+	}
+}
+
+.lp-combination-title{
+	color: transparent;
+	font-size: 0;
+	line-height: 0;
+	text-indent: -9999px;
+}
+
+.lp-combination-title-jd{
+	background: url(../../../images/titel_jas_donsjas.png);
+	background-size: contain;
+}
+
+.lp-combination-title-jf{
+	background: url(../../../images/titel_jas_fleece.png);
+	background-size: contain;
+}
+
+.lp-combination{
+	//background: rgba(0,0,0,0.05);
+}
+
+.lp-pricelabel{
+	color: #ffffff;
+	text-align: center;
+
+	.lp-pricelabel-top{
+		background: #3D3D3D;
+		box-shadow: inset 0 0 15px rgba(0,0,0,0.8);
+
+		.lp-pricelabel-pricetype{
+			font-weight: bold;
+			text-transform: uppercase;
+		}
+
+		.lp-pricelabel-initial{
+			font-size: 80%;
+			position: relative;
+				top: -4px;
+			text-decoration: line-through;
+		}
+	}
+
+	.lp-pricelabel-bottom{
+		background: #AA171C;
+		box-shadow: inset 0 0 15px rgba(0,0,0,0.5);
+
+		.lp-pricelabel-actual{
+			font-size: 162.5%;
+			//font-weight: 400;
+			position: relative;
+				top: -2px;
+			text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+		}
+	}
+
+	.currency{
+		font-size: .6em;
+		font-weight: 100;
+		margin-right: 2px;
+	}
+}
+
+.lp-swatches{
+	.lp-swatch{
+		border: 2px solid #ffffff;
+		border-radius: 50%;
+		box-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+
+		&.lp-swatch-lightblue{
+			background: #2294DC;
+		}
+
+		&.lp-swatch-turquoise{
+			background: #6AD0C8;
+		}
+
+		&.lp-swatch-red{
+			background: #BE232B;
+		}
+
+		&.lp-swatch-black{
+			background: #202022;
+		}
+
+		&.lp-swatch-oilblue{
+			background: #4C7D9C;
+		}
+	}
+}
+
+.lp-combo-container{
+
+}
+
+.lp-combo-image{
+	box-shadow: 0 0 3px rgba(0,0,0,0.2);
+}
+
+.lp-pin{
+
+}
+
+/* ------------------------------------ */
+
+}
+
+/* =======================================
+	END NESTING
+======================================= */
