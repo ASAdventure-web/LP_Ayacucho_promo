@@ -2,6 +2,15 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "18027",
 "files": {
+	"\/1603_NL.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/1603_NL.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/bower_components\/normalize-scss\/_normalize.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -95,46 +104,24 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/donsjas_dames_rood.png": {
+	"\/images\/donsjas_dames_rood_oud.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 66062,
-		"inputAbbreviatedPath": "\/images\/donsjas_dames_rood.png",
-		"outputAbbreviatedPath": "\/images\/donsjas_dames_rood.png",
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/images\/donsjas_dames_rood_oud.png",
+		"outputAbbreviatedPath": "\/images\/donsjas_dames_rood_oud.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/donsjas_heren_rood.png": {
+	"\/images\/fleece_dames_turkoois_oud.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 86063,
-		"inputAbbreviatedPath": "\/images\/donsjas_heren_rood.png",
-		"outputAbbreviatedPath": "\/images\/donsjas_heren_rood.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/fleece_dames_turkoois.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 58723,
-		"inputAbbreviatedPath": "\/images\/fleece_dames_turkoois.png",
-		"outputAbbreviatedPath": "\/images\/fleece_dames_turkoois.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/fleece_heren_zwart.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 61148,
-		"inputAbbreviatedPath": "\/images\/fleece_heren_zwart.png",
-		"outputAbbreviatedPath": "\/images\/fleece_heren_zwart.png",
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/images\/fleece_dames_turkoois_oud.png",
+		"outputAbbreviatedPath": "\/images\/fleece_dames_turkoois_oud.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -161,46 +148,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/jas_dames_lichtblauw.png": {
+	"\/images\/jas_dames_zwart_oud.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 61159,
-		"inputAbbreviatedPath": "\/images\/jas_dames_lichtblauw.png",
-		"outputAbbreviatedPath": "\/images\/jas_dames_lichtblauw.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/jas_dames_zwart.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 48783,
-		"inputAbbreviatedPath": "\/images\/jas_dames_zwart.png",
-		"outputAbbreviatedPath": "\/images\/jas_dames_zwart.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/jas_heren_grijs.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 79865,
-		"inputAbbreviatedPath": "\/images\/jas_heren_grijs.png",
-		"outputAbbreviatedPath": "\/images\/jas_heren_grijs.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/jas_heren_rood.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 72746,
-		"inputAbbreviatedPath": "\/images\/jas_heren_rood.png",
-		"outputAbbreviatedPath": "\/images\/jas_heren_rood.png",
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/images\/jas_dames_zwart_oud.png",
+		"outputAbbreviatedPath": "\/images\/jas_dames_zwart_oud.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
