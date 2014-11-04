@@ -238,6 +238,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/section_bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22832,
+		"inputAbbreviatedPath": "\/images\/section_bg.jpg",
+		"outputAbbreviatedPath": "\/images\/section_bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/titel_jas_donsjas.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -323,7 +334,7 @@
 		"outputAbbreviatedPath": "\/stylesheets\/css\/lp_ayacucho_promo.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
 		"useLibsass": 0
@@ -418,7 +429,7 @@
 	"bowerAbbreviatedPath": "",
 	"displayValue": "LP_Ayacucho_promo",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "pencil_brown"
+	"iconImageName": "harddrive_yellow"
 	},
 "projectSettings": {
 	"alwaysUseExternalServer": 0,

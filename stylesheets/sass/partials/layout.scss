@@ -10,7 +10,9 @@
 
 #lp-wrapper{
 	margin: 0 auto;
+	margin-bottom: 100px;
 	max-width: 1170px;
+	padding-bottom: 30px;
 	width: 100%;
 
 	*{
@@ -55,7 +57,11 @@
 
 // NAV 
 .lp-main-navigation{
-	display: none;						// TIJDELIJK HIDEN NAVIGATIE
+	//display: none;						// TIJDELIJK HIDEN NAVIGATIE
+}
+
+.lp-list-with-heading{
+	float: left;
 }
 
 // COMBINATION

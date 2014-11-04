@@ -3,3 +3,44 @@
 	MODULES
 
 ========================================================================== */
+
+/* =======================================
+	BEGIN NESTING
+======================================= */
+
+#lp-wrapper{
+
+/* ------------------------------------ */
+
+.cta{
+	background: url(http://static.asadventure.com/includes/landingpage/ayacucho-promo/images/bg_cta.gif);
+	border: 1px solid #627321;
+	box-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+	color: #ffffff;
+	display: block;
+	font-size: 13px;
+	height: 40px;
+	line-height: 40px;
+	margin: 0 auto;
+	padding: 0 1em;
+	position: relative;
+		top: -60px;
+	text-decoration: none;
+	text-shadow: 1px 1px 0 rgba(0,0,0,0.3);
+	transition: all .3s;
+	width: percentage(200/230);
+
+	&:after{
+		content: '';
+		float: right;
+		font-family: 'FontAwesome';
+	}
+}
+
+/* =======================================
+	END NESTING
+======================================= */
+
+}
+
+/* ------------------------------------ */

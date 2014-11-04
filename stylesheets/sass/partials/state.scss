@@ -3,3 +3,36 @@
 	STATE
 
 ========================================================================== */
+
+/* =======================================
+	BEGIN NESTING
+======================================= */
+
+#lp-wrapper{
+
+/* ------------------------------------ */
+
+.cta{
+	&:hover{
+		background: url(http://static.asadventure.com/includes/landingpage/ayacucho-promo/images/bg_cta_hover.gif);
+
+		&:after{
+			animation: indicate .5s;
+		}
+	}
+}
+
+@keyframes indicate{
+	0%	{margin-right: 0;}
+	50%	{margin-right: -3px;}
+	90%	{margin-right: 1px;}
+	100%	{margin-right: 0;}
+}
+
+/* =======================================
+	END NESTING
+======================================= */
+
+}
+
+/* ------------------------------------ */
