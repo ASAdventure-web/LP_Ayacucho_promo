@@ -25,27 +25,49 @@
 
 .lp-header{
 	height: 409px;
+	max-width: 1170px;
 	position: relative;				// HEADER POSITIONING-SCOPE
+	width: 100%;
+
+	@media only screen and (max-width: 1199px){
+		height: 329px;
+	}
+
+	@media only screen and (max-width: 979px){
+		height: 253px;
+	}
 }
 
 .lp-header-logo{
 	position: absolute;
-		top: 3em;
-		left: 3em;
+		bottom: 24px;
+		left: 48.7%;
+	width: percentage(190/1170);
+
+	@media only screen and(max-width: 1199px){
+		position: absolute;
+			bottom: 15px;
+	}
 }
 
-.lp-header-text{
-	margin: 0;
+.lp-header-technicals{
+	line-height: 2.1em;
+	margin-bottom: 0;
 	position: absolute;
-		bottom: 95px;
-		left: 1.6em;
-	width: percentage(470/1170);
-}
+		bottom: 17px;
+		left: 33%;
 
-.lp-header-icons{
-	position: absolute;
-		bottom: 2em;
-		left: 3em;
+	@media only screen and(max-width: 1199px){
+		position: absolute;
+			bottom: 7px;
+			left: 32%;
+	}
+
+	@media only screen and(max-width: 979px){
+		position: absolute;
+			bottom: 7px;
+			left: 31.5%;
+	}
 }
 
 // SUBHEADER
@@ -86,18 +108,19 @@
 
 .lp-combination{
 	height: 300px;
-	margin: 30px auto 0;
+	margin: 25px auto 0;
 	position: relative;				// COMBINATION POSITIONING-SCOPE
 	width: 100%;
 
 	&+ .lp-combination{
-		margin-top: 60px;
+		margin-top: 85px;
 	}
 }
 
 .lp-gender-indicator{
 	position: absolute;
 		top: -20px;
+		left: 0;
 }
 
 .lp-product-container{
@@ -114,17 +137,21 @@
 }
 
 .lp-product-image{
-	//margin-right: 1.4em;
+	margin-right: 1.4em;
 	position: absolute;
-		bottom: 0;
+		bottom: 15px;
 	z-index: 10;
 }
 
 .lp-product-info{
-	padding-left: 225px;
+	float: right;
 	position: relative;
-	width: 100%;
+	width: 150px;
 	height: 100%;
+}
+
+.lp-product-name{
+	margin-top: 30px;
 }
 
 .lp-pricelabel{

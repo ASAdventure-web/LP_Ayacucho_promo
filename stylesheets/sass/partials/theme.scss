@@ -48,28 +48,88 @@
 // HEADER
 .lp-header{
 	background: url(http://static.asadventure.com/includes/landingpage/ayacucho-promo/images/header.jpg) no-repeat;
+	background-size: contain;
 
 	&:after{
 		background: url(http://static.asadventure.com/includes/landingpage/ayacucho-promo/images/schaduw.png) no-repeat center center;
+		background-size: contain;
 		content: "";
 		height: 30px;
 		max-width: 1170px;
 		position: absolute;
-			bottom: -30px;
+			bottom: -29px;
 		width: 100%;
 		z-index: 0;
+
+		@media only screen and (max-width: 1199px) {
+			bottom: -27px;
+		}
+
+		@media only screen and (max-width: 979px) {
+			bottom: -24px;
+		}
 	}
 }
 
-.lp-header-logo{
-
-}
-
-.lp-header-text{
+.lp-header-technicals{
 	color: #ffffff;
-	font-family: 'Serifa BT';
-	font-weight: 100;
-	text-shadow: 1px 1px 0 rgba(0,0,0,0.4);
+	font-size: 13px;
+	line-height: 2em;
+	text-shadow: 1px 1px 0 rgba(0,0,0,0.3);
+
+	@media only screen and(max-width: 979px){
+		font-size: 10px;
+	}
+
+	li{
+		list-style-type: none;
+	}
+
+	.lp-icon{
+		&:before{
+			content: "";
+			display: inline-block;
+			height: 18px;
+			margin-right: 10px;
+			position: relative;
+				bottom: -3px;
+			width: 18px;
+
+			@media only screen and (max-width: 979px){
+				height: 15px;
+				margin-right: 7px;
+				width: 15px;
+			}
+		}
+	}
+
+	.lp-icon-waterresist{
+		&:before{
+			background: url(http://static.asadventure.com/includes/landingpage/ayacucho-promo/images/waterdicht.png);
+			background-size: contain;
+		}
+	}
+
+	.lp-icon-windresist{
+		&:before{
+			background: url(http://static.asadventure.com/includes/landingpage/ayacucho-promo/images/winddicht.png);
+			background-size: contain;
+		}
+	}
+
+	.lp-icon-breathing{
+		&:before{
+			background: url(http://static.asadventure.com/includes/landingpage/ayacucho-promo/images/ademend.png);
+			background-size: contain;
+		}
+	}
+
+	.lp-icon-insulating{
+		&:before{
+			background: url(http://static.asadventure.com/includes/landingpage/ayacucho-promo/images/isolerend.png);
+			background-size: contain;
+		}
+	}
 }
 
 // SUBHEADER

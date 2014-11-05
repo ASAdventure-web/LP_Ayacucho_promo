@@ -60,6 +60,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/images\/ademend.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 715,
+		"inputAbbreviatedPath": "\/images\/ademend.png",
+		"outputAbbreviatedPath": "\/images\/ademend.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/combo_jas_dons_dames.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -188,6 +199,17 @@
 		"initialSize": 2972,
 		"inputAbbreviatedPath": "\/images\/iconen.png",
 		"outputAbbreviatedPath": "\/images\/iconen.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/isolerend.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 834,
+		"inputAbbreviatedPath": "\/images\/isolerend.png",
+		"outputAbbreviatedPath": "\/images\/isolerend.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -331,6 +353,28 @@
 		"initialSize": 1327,
 		"inputAbbreviatedPath": "\/images\/voor_hem.png",
 		"outputAbbreviatedPath": "\/images\/voor_hem.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/waterdicht.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 868,
+		"inputAbbreviatedPath": "\/images\/waterdicht.png",
+		"outputAbbreviatedPath": "\/images\/waterdicht.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/winddicht.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 662,
+		"inputAbbreviatedPath": "\/images\/winddicht.png",
+		"outputAbbreviatedPath": "\/images\/winddicht.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
