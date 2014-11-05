@@ -3,8 +3,5 @@
 **/.sass-cache/
 *.scssc
 
-stylesheets/sass/.sass-cache/58a257e263712bf4b64f4627019bfe15158d328c/layout.scssc
-
-*.scssc
-
-*.scssc
+# Ignore sftp
+**/sftp-config.json

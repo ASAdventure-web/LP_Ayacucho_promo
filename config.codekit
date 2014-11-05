@@ -104,6 +104,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/donsjas_dames_rood.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 62652,
+		"inputAbbreviatedPath": "\/images\/donsjas_dames_rood.png",
+		"outputAbbreviatedPath": "\/images\/donsjas_dames_rood.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/donsjas_dames_rood_oud.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -111,6 +122,28 @@
 		"initialSize": 0,
 		"inputAbbreviatedPath": "\/images\/donsjas_dames_rood_oud.png",
 		"outputAbbreviatedPath": "\/images\/donsjas_dames_rood_oud.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/donsjas_heren_rood.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 72129,
+		"inputAbbreviatedPath": "\/images\/donsjas_heren_rood.png",
+		"outputAbbreviatedPath": "\/images\/donsjas_heren_rood.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/fleece_dames_turkoois.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 52503,
+		"inputAbbreviatedPath": "\/images\/fleece_dames_turkoois.png",
+		"outputAbbreviatedPath": "\/images\/fleece_dames_turkoois.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -126,13 +159,24 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/header.jpg": {
+	"\/images\/fleece_heren_zwart.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 45748,
+		"inputAbbreviatedPath": "\/images\/fleece_heren_zwart.png",
+		"outputAbbreviatedPath": "\/images\/fleece_heren_zwart.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/header_oud.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 153433,
-		"inputAbbreviatedPath": "\/images\/header.jpg",
-		"outputAbbreviatedPath": "\/images\/header.jpg",
+		"inputAbbreviatedPath": "\/images\/header_oud.jpg",
+		"outputAbbreviatedPath": "\/images\/header_oud.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -148,6 +192,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/jas_dames_lichtblauw.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 78201,
+		"inputAbbreviatedPath": "\/images\/jas_dames_lichtblauw.png",
+		"outputAbbreviatedPath": "\/images\/jas_dames_lichtblauw.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/jas_dames_zwart.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 57045,
+		"inputAbbreviatedPath": "\/images\/jas_dames_zwart.png",
+		"outputAbbreviatedPath": "\/images\/jas_dames_zwart.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/jas_dames_zwart_oud.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -155,6 +221,28 @@
 		"initialSize": 0,
 		"inputAbbreviatedPath": "\/images\/jas_dames_zwart_oud.png",
 		"outputAbbreviatedPath": "\/images\/jas_dames_zwart_oud.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/jas_heren_grijs.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 63091,
+		"inputAbbreviatedPath": "\/images\/jas_heren_grijs.png",
+		"outputAbbreviatedPath": "\/images\/jas_heren_grijs.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/jas_heren_rood.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 66446,
+		"inputAbbreviatedPath": "\/images\/jas_heren_rood.png",
+		"outputAbbreviatedPath": "\/images\/jas_heren_rood.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
