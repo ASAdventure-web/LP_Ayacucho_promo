@@ -140,6 +140,7 @@
 // COMBINATION
 .lp-combination-container{
 	background: url(http://static.asadventure.com/includes/landingpage/ayacucho-promo/images/section_bg.jpg);
+	background-size: contain;
 
 	&:after{
 		background: url(http://static.asadventure.com/includes/landingpage/ayacucho-promo/images/schaduw.png) no-repeat center center;
@@ -162,12 +163,12 @@
 }
 
 .lp-combination-title-jd{
-	background: url(http://static.asadventure.com/includes/landingpage/ayacucho-promo/images/titel_jas_donsjas.png);
+	background: url(http://static.asadventure.com/includes/landingpage/ayacucho-promo/images/titel_jas_donsjas.png) no-repeat;
 	background-size: contain;
 }
 
 .lp-combination-title-jf{
-	background: url(http://static.asadventure.com/includes/landingpage/ayacucho-promo/images/titel_jas_fleece.png);
+	background: url(http://static.asadventure.com/includes/landingpage/ayacucho-promo/images/titel_jas_fleece.png) no-repeat;
 	background-size: contain;
 }
 
