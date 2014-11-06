@@ -40,6 +40,11 @@
 	@media only screen and (max-width: 979px){
 		height: 253px;
 	}
+
+	@media only screen and (max-width: 767px){
+		border-bottom: none;
+		z-index: 0;
+	}
 }
 
 .lp-header-logo{
@@ -51,6 +56,13 @@
 	@media only screen and(max-width: 1199px){
 		position: absolute;
 			bottom: 15px;
+	}
+
+	@media only screen and(max-width: 767px){
+		position: absolute;
+			left: 36%;
+			bottom: 11px;
+		width: percentage(100/360);
 	}
 }
 
@@ -72,6 +84,13 @@
 			bottom: 7px;
 			left: 31.5%;
 	}
+
+	@media only screen and(max-width: 767px){
+		margin-left: 0;
+		position: absolute;
+			bottom: 7px;
+			left: 14px;
+	}
 }
 
 // SUBHEADER
@@ -83,15 +102,52 @@
 	@media only screen and(max-width: 979px) {
 		margin-top: 30px;
 	}
+
+	@media only screen and(max-width: 767px) {
+		width: 90%;
+	}
 }
 
-// NAV 
+// MAIN NAV
 .lp-main-navigation{
-	display: none;						// TIJDELIJK HIDEN NAVIGATIE
-}
+	//display: none;						// TIJDELIJK HIDEN NAVIGATIE
+	//height: 38px;
+	margin: 30px auto;
+	width: 80%;
 
-.lp-list-with-heading{
-	float: left;
+	.lp-cta-list{
+		margin: 0;
+	}
+
+	li{
+		float: left;
+		width: 20.5%;
+
+		&+ li{
+			margin-left: 6%;
+
+			@media only screen and(max-width: 767px) {
+				margin-left: 0;
+			}
+		}
+
+		a{
+			display: block;
+			height: 100%;
+			padding: 0 10px;
+			width: 100%;
+		}
+
+		@media only screen and(max-width: 767px) {
+			float: inherit;
+			margin-bottom: 10px;
+			width: 100%; 
+		}
+	}
+
+	@media only screen and(max-width: 767px) {
+		margin-bottom: 0;
+	}
 }
 
 // COMBINATION
@@ -112,6 +168,12 @@
 		}
 	}
 
+	&:after{
+		clear: both;
+		content: "";
+		display: table;
+	}
+
 	@media only screen and(max-width: 1199px) {
 		height: 643px;	
 	}
@@ -120,12 +182,21 @@
 		height: 496px;
 		margin-top: 30px;
 	}
+
+	@media only screen and(max-width: 767px) {
+		height: 784px;
+		padding: 10px;
+	}
 }
 
 .lp-combination-title{
 	height: 42px;
 	margin: 0 auto;
 	width: percentage(170/1130);
+
+	@media only screen and(max-width: 767px) {
+		width: percentage(100/360);
+	}
 }
 
 .lp-combination{
@@ -155,6 +226,15 @@
 			margin-top: 35px;
 		}
 	}
+
+	@media only screen and(max-width: 767px){
+		height: 320px;
+		margin-top: -22px;
+
+		&+ .lp-combination{
+			margin-top: 70px;
+		}
+	}
 }
 
 .lp-gender-indicator{
@@ -167,18 +247,38 @@
 			position: absolute;
 				top: 0;
 		}
+
+		@media only screen and(max-width: 767px) {
+			max-width: percentage(100/360);
+			position: absolute;
+				top: -9px;
+		}
 }
 
 .lp-product-container{
 	float: left;
 	height: 94%;
-	margin-right: percentage(43/1130);
 	position: relative;
 		bottom: -20px;
 	width: percentage(370/1130);
 
+	&+ .lp-product-container{
+		margin-left: percentage(43/1130);
+	}
+
+	&:after{
+		clear: both;
+		content: "";
+		display: table;
+	}
+
 	@media only screen and(max-width: 979px) {
 		height: 88%;
+	}
+
+	@media only screen and(max-width: 767px) {
+		height: 37%;
+		width: 48%;
 	}
 }
 
@@ -238,6 +338,10 @@
 	@media only screen and(max-width: 979px) {
 		margin-top: 20px;
 	}
+
+	@media only screen and(max-width: 767px) {
+		margin-top: 10px;
+	}
 }
 
 .lp-swatches{
@@ -252,6 +356,10 @@
 
 		&+ .lp-swatch{
 			margin-left: 5px;
+
+			@media only screen and(max-width: 767px) {
+				margin-left: 3px;
+			}
 		}
 
 		@media only screen and(max-width: 1199px){
@@ -260,6 +368,10 @@
 
 		@media only screen and(max-width: 979px){
 			height: 18px;
+		}
+
+		@media only screen and(max-width: 767px){
+			height: 13px;
 		}
 	}
 
@@ -274,6 +386,12 @@
 	margin-right: 50px;
 	position: relative;
 	width: percentage(230/1130);
+
+	&:after{
+		clear: both;
+		content: "";
+		display: table;
+	}
 
 	.lp-pricelabel{
 		border: 1px solid #A2AEB0;
@@ -296,6 +414,12 @@
 				top: 32px;
 				right: -25px;
 		}
+
+		@media only screen and(max-width: 767px){
+			position: absolute;
+				top: 32px;
+				right: 114px;
+		}
 	}
 
 	@media only screen and(max-width: 979px) {
@@ -303,10 +427,20 @@
 		max-height: 100%;
 		width: percentage(153/694);
 	}
+
+	@media only screen and(max-width: 767px) {
+		margin-right: 0;
+		margin-top: 40px;
+		width: 100%;
+	}
 }
 
 .lp-combo-image{
 	max-width: 100%;
+
+	@media only screen and(max-width: 767px) {
+		max-width: 43%;
+	}
 }
 
 .lp-pin{
@@ -314,6 +448,14 @@
 	position: absolute;
 		top: -15px;
 		left: 50%;
+
+	@media only screen and(max-width: 767px) {
+		height: 10px;
+		position: absolute;
+			top: -5px;
+			left: 24%;
+		width: 10px;
+	}
 }
 
 

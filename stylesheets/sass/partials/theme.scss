@@ -97,6 +97,15 @@
 		@media only screen and (max-width: 979px) {
 			bottom: -23px;
 		}
+
+		@media only screen and (max-width: 767px) {
+			display: none;
+		}
+	}
+
+	@media only screen and(max-width: 767px) {
+		background: url(http://static1.asadventure.com/includes/landingpage/ayacucho-promo/images/header_mobile@2x.jpg) no-repeat center center;
+		background-size: contain;
 	}
 }
 
@@ -166,6 +175,37 @@
 	text-align: center;
 }
 
+// MAIN NAV
+.lp-main-navigation{
+
+	&:after{
+		clear: both;
+		content: "";
+		display: table;
+	}
+
+	li{
+		list-style-type: none;
+
+		a{
+			background: url(http://static.asadventure.com/includes/landingpage/ayacucho-promo/images/bg_cta.gif);
+			border: 1px solid #627321;
+			color: #ffffff;
+			font-size: 14px;
+			line-height: 38px;
+			text-decoration: none;
+			text-shadow: 1px 1px 0 rgba(0,0,0,0.3);
+			transition: all .3s;
+
+			&:after{
+				content: "";
+				float: right;
+				font-family: "FontAwesome";
+			}
+		}
+	}
+}
+
 // COMBINATION
 .lp-combination-container{
 	background: url(http://static.asadventure.com/includes/landingpage/ayacucho-promo/images/section_bg.jpg);
@@ -192,6 +232,16 @@
 			position: absolute;
 			bottom: -23px;
 		}
+
+		@media only screen and(max-width: 979px){
+			position: absolute;
+			bottom: -19px;
+		}
+	}
+
+	@media only screen and(max-width: 767px) {
+		background: url(http://static1.asadventure.com/includes/landingpage/ayacucho-promo/images/section_bg_mobile@2x.jpg);
+		background-size: contain;
 	}
 }
 
@@ -243,6 +293,10 @@
 			font-size: 162.5%;
 			line-height: 32px;
 			text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+
+			@media only screen and(max-width: 767px) {
+				line-height: 20px;
+			}
 		}
 	}
 
@@ -250,6 +304,10 @@
 		font-size: .6em;
 		font-weight: 100;
 		margin-right: 2px;
+	}
+
+	@media only screen and(max-width: 767px) {
+		font-size: .8em;
 	}
 }
 
