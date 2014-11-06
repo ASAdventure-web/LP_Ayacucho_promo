@@ -13,7 +13,8 @@
 /* ------------------------------------ */
 
 .cta{
-	background: url(http://static.asadventure.com/includes/landingpage/ayacucho-promo/images/bg_cta.gif);
+	background: #9AAE36;
+	background-image: url(http://static.asadventure.com/includes/landingpage/ayacucho-promo/images/bg_cta.gif);
 	border: 1px solid #627321;
 	box-shadow: 1px 1px 3px rgba(0,0,0,0.3);
 	color: #ffffff;
@@ -24,7 +25,7 @@
 	margin: 0 auto;
 	padding: 0 1em;
 	position: relative;
-		top: -60px;
+		top: -55px;
 	text-decoration: none;
 	text-shadow: 1px 1px 0 rgba(0,0,0,0.3);
 	transition: all .3s;
@@ -34,6 +35,20 @@
 		content: '';
 		float: right;
 		font-family: 'FontAwesome';
+	}
+
+	@media only screen and(max-width: 1199px) {
+		font-size: 12px;
+		height: 36px;
+		line-height: 36px;
+		position: relative;
+			top: -48px;
+	}
+
+	@media only screen and(max-width: 979px) {
+		font-size: 10px;
+		position: relative;
+			top: -46px;
 	}
 }
 
