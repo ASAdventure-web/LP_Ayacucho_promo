@@ -9,14 +9,18 @@
 ======================================= */
 
 #lp-wrapper{
-	margin: 0 auto;
-	margin-bottom: 100px;
+	margin: -30px auto 100px;
 	max-width: 1170px;
 	padding-bottom: 30px;
+	-webkit-text-size-adjust:none;
 	width: 100%;
 
 	*{
 		box-sizing: border-box;
+	}
+
+	@media only screen and(max-width: 979px) {
+		margin-bottom: 50px;
 	}
 
 /* ------------------------------------ */
@@ -75,6 +79,10 @@
 .lp-subheader{
 	margin: 50px auto 0;
 	width: percentage(870/1170);
+
+	@media only screen and(max-width: 979px) {
+		margin-top: 30px;
+	}
 }
 
 // NAV 
@@ -90,13 +98,27 @@
 
 .lp-combination-container{
 	height: 800px;
-	margin-top: 3.125em;
-	padding: 1.875em 1.25em; 		// 30px
+	margin-top: 50px;
+	padding: 1.875em 1.25em;
 	position: relative;				// COMBINATION CONTAINER POSITIONING-SCOPE
 	width: 100%;
+	z-index: 1;
 
 	&+ .lp-combination-container{
 		margin-top: 100px;
+
+		@media only screen and(max-width: 979px) {
+			margin-top: 50px;
+		}
+	}
+
+	@media only screen and(max-width: 1199px) {
+		height: 643px;	
+	}
+
+	@media only screen and(max-width: 979px) {
+		height: 496px;
+		margin-top: 30px;
 	}
 }
 
@@ -115,6 +137,24 @@
 	&+ .lp-combination{
 		margin-top: 85px;
 	}
+
+	@media only screen and(max-width: 1199px){
+		height: 255px;
+		margin-top: 7px;
+
+		&+ .lp-combination{
+			margin-top: 40px;
+		}
+	}
+
+	@media only screen and(max-width: 979px){
+		height: 196px;
+		margin-top: -10px;
+
+		&+ .lp-combination{
+			margin-top: 35px;
+		}
+	}
 }
 
 .lp-gender-indicator{
@@ -122,6 +162,11 @@
 	position: absolute;
 		top: -20px;
 		left: 0;
+
+		@media only screen and(max-width: 979px) {
+			position: absolute;
+				top: 0;
+		}
 }
 
 .lp-product-container{
@@ -131,6 +176,10 @@
 	position: relative;
 		bottom: -20px;
 	width: percentage(370/1130);
+
+	@media only screen and(max-width: 979px) {
+		height: 88%;
+	}
 }
 
 .lp-product-image, .lp-product-info{
@@ -143,6 +192,11 @@
 	position: absolute;
 		bottom: 15px;
 	z-index: 10;
+
+	@media only screen and(max-width: 979px) {
+		position: absolute;
+			bottom: 0;
+	}
 }
 
 .lp-product-info{
@@ -150,24 +204,39 @@
 	position: relative;
 	width: percentage(150/370);
 	height: 100%;
+
+	@media only screen and(max-width: 979px) {
+		width: percentage(91/227);
+	}
 }
 
 .lp-product-name{
 	margin-top: 30px;
+
+	@media only screen and(max-width: 1199px){
+		margin-top: 10px;
+	}
+
+	@media only screen and(max-width: 979px){
+		margin-top: 0;
+	}
 }
 
 .lp-pricelabel{
+	display: inline-block;
 	margin-top: 30px;
-	width: percentage(80/150);
 
 	.lp-pricelabel-top{
-		height: 45px;
-		padding-top: 4px;
+		padding: 4px;
 		margin-bottom: 1px;
 	}
 
-	.lp-pricelabel-bottom{
-		height: 34px;
+	.lp-pricelabel-pricetype, .lp-pricelabel-initial{
+		display: block;
+	}
+
+	@media only screen and(max-width: 979px) {
+		margin-top: 20px;
 	}
 }
 
@@ -179,12 +248,24 @@
 	.lp-swatch{
 		float: left;
 		height: 30px;
-		margin-right: 5px;
 		width: percentage(30/150);
+
+		&+ .lp-swatch{
+			margin-left: 5px;
+		}
 
 		@media only screen and(max-width: 1199px){
 			height: 24px;
 		}
+
+		@media only screen and(max-width: 979px){
+			height: 18px;
+		}
+	}
+
+	@media only screen and(max-width: 979px) {
+		position: absolute;
+			bottom: 0;
 	}
 }
 
@@ -204,6 +285,23 @@
 			border-bottom: 1px solid #A2AEB0;
 			margin-bottom: 0;
 		}
+
+		@media only screen and(max-width: 1199px){
+			position: absolute;
+				top: 49px;
+		}
+
+		@media only screen and(max-width: 979px){
+			position: absolute;
+				top: 32px;
+				right: -25px;
+		}
+	}
+
+	@media only screen and(max-width: 979px) {
+		margin-right: 25px;
+		max-height: 100%;
+		width: percentage(153/694);
 	}
 }
 

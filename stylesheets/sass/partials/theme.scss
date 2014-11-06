@@ -12,35 +12,64 @@
 	color: #292929;
 	font-size: 16px;
 	font-family: 'Open Sans';
+	line-height: 1.5;
 
 	h1, h2, h3, h4, h5, h6, p{
 		line-height: 1.5;
 	}
 
 	h1{
-		font-size: 32px; // 32px
+		font-size: 32px;
+
+		@media only screen and(max-width: 1199px){
+			font-size: 26px;
+		}
+
+		@media only screen and(max-width: 1199px){
+			font-size: 21px;
+		}
 	}
 
 	h2{
-		font-size: 30px; // 30px
+		font-size: 30px;
 	}
 
 	h3{
-		font-size: 28px; // 28px
+		font-size: 28px;
 	}
 
 	h4{
-		font-size: 26px; // 26px
+		font-size: 26px;
 	}
 
 	h5{
 		font-size: 89%;
 		font-weight: bold;
 		margin-bottom: 0;
+
+		@media only screen and(max-width: 1199px){
+			font-size: 80%;
+		}
 	}
 
 	p{
-		font-size: 16px; // 16px
+		font-size: 16px;
+
+		@media only screen and(max-width: 1199px){
+			font-size: 14px;
+		}
+
+		@media only screen and(max-width: 979px){
+			font-size: 12px;
+		}
+	}
+
+	@media only screen and(max-width: 1199px){
+		font-size: 14px;
+	}
+
+	@media only screen and(max-width: 979px){
+		font-size: 12px;
 	}
 
 /* ------------------------------------ */
@@ -62,11 +91,11 @@
 		z-index: 0;
 
 		@media only screen and (max-width: 1199px) {
-			bottom: -27px;
+			bottom: -25px;
 		}
 
 		@media only screen and (max-width: 979px) {
-			bottom: -24px;
+			bottom: -23px;
 		}
 	}
 }
@@ -144,14 +173,25 @@
 
 	&:after{
 		background: url(http://static.asadventure.com/includes/landingpage/ayacucho-promo/images/schaduw.png) no-repeat center center;
+		background-size: contain;
 		content: "";
 		height: 30px;
 		max-width: 1170px;
 		position: absolute;
-			bottom: -30px;
+			bottom: -29px;
 			left: 0;
 		width: 100%;
 		z-index: 0;
+
+		@media only screen and(max-width: 1199px){
+			position: absolute;
+			bottom: -26px;
+		}
+
+		@media only screen and(max-width: 979px){
+			position: absolute;
+			bottom: -23px;
+		}
 	}
 }
 
@@ -191,8 +231,6 @@
 
 		.lp-pricelabel-initial{
 			font-size: 80%;
-			position: relative;
-				top: -4px;
 			text-decoration: line-through;
 		}
 	}
@@ -204,8 +242,6 @@
 		.lp-pricelabel-actual{
 			font-size: 162.5%;
 			line-height: 32px;
-			position: relative;
-				top: -2px;
 			text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
 		}
 	}
@@ -222,6 +258,10 @@
 		border: 2px solid #ffffff;
 		border-radius: 50%;
 		box-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+
+		@media only screen and(max-width: 1199px){
+			border: 1px solid #ffffff;
+		}
 
 		&.lp-swatch-lightblue{
 			background: #2294DC;
