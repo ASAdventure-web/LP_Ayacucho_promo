@@ -103,9 +103,14 @@
 		}
 	}
 
-	@media only screen and(max-width: 767px) {
-		background: url(http://static1.asadventure.com/includes/landingpage/ayacucho-promo/images/header_mobile@2x.jpg) no-repeat center center;
+	@media only screen and (max-width: 767px) {
+		background: url(http://static.asadventure.com/includes/landingpage/ayacucho-promo/images/header_mobile@2x.jpg) no-repeat center center;
 		background-size: contain;
+	}
+
+	// underline color:red
+	.underline {
+		color: #c71313;
 	}
 }
 
@@ -239,8 +244,8 @@
 		}
 	}
 
-	@media only screen and(max-width: 767px) {
-		background: url(http://static1.asadventure.com/includes/landingpage/ayacucho-promo/images/section_bg_mobile@2x.jpg);
+	@media only screen and (max-width: 767px) {
+		background: url(http://static.asadventure.com/includes/landingpage/ayacucho-promo/images/section_bg_mobile@2x.jpg);
 		background-size: contain;
 	}
 }
@@ -257,8 +262,33 @@
 	background-size: contain;
 }
 
+
 .lp-combination-title-jf{
 	background: url(http://static.asadventure.com/includes/landingpage/ayacucho-promo/images/titel_jas_fleece.png) no-repeat;
+	background-size: contain;
+}
+
+// FR COPY
+
+.lp-combination-title-vv{
+	background: url(http://static.asadventure.com/includes/landingpage/ayacucho-promo/images/titel_veste_duvet.png) no-repeat;
+	background-size: contain;
+}
+
+.lp-combination-title-vp{
+	background: url(http://static.asadventure.com/includes/landingpage/ayacucho-promo/images/titel_veste_polaire.png) no-repeat;
+	background-size: contain;
+}
+
+// EN COPY
+
+.lp-combination-title-cd{
+	background: url(http://static.asadventure.com/includes/landingpage/ayacucho-promo/images/titel_coat_down.png) no-repeat;
+	background-size: contain;
+}
+
+.lp-combination-title-cf{
+	background: url(http://static.asadventure.com/includes/landingpage/ayacucho-promo/images/titel_coat_fleece.png) no-repeat;
 	background-size: contain;
 }
 
@@ -327,6 +357,10 @@
 
 		&.lp-swatch-turquoise{
 			background: #6AD0C8;
+		}
+
+		&.lp-swatch-greenblue{
+			background: #2C7D99;
 		}
 
 		&.lp-swatch-red{
