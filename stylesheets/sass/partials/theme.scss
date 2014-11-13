@@ -72,6 +72,11 @@
 		font-size: 12px;
 	}
 
+	// underline color:red
+	.underline {
+		color: #c71313;
+	}
+
 /* ------------------------------------ */
 
 // HEADER
@@ -106,11 +111,6 @@
 	@media only screen and (max-width: 767px) {
 		background: url(http://static.asadventure.com/includes/landingpage/ayacucho-promo/images/header_mobile@2x.jpg) no-repeat center center;
 		background-size: contain;
-	}
-
-	// underline color:red
-	.underline {
-		color: #c71313;
 	}
 }
 
