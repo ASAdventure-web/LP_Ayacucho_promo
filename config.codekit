@@ -1,7 +1,25 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "18027",
+"creatorBuild": "18270",
 "files": {
+	"\/1603_EN.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/1603_EN.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/1603_FR.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/1603_FR.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/1603_NL.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -64,7 +82,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 715,
+		"initialSize": 616,
 		"inputAbbreviatedPath": "\/images\/ademend.png",
 		"outputAbbreviatedPath": "\/images\/ademend.png",
 		"outputPathIsOutsideProject": 0,
@@ -181,6 +199,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/for_her.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 821,
+		"inputAbbreviatedPath": "\/images\/for_her.png",
+		"outputAbbreviatedPath": "\/images\/for_her.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/for_him.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 864,
+		"inputAbbreviatedPath": "\/images\/for_him.png",
+		"outputAbbreviatedPath": "\/images\/for_him.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/header-nieuw.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 101003,
+		"inputAbbreviatedPath": "\/images\/header-nieuw.jpg",
+		"outputAbbreviatedPath": "\/images\/header-nieuw.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/header.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -188,6 +239,17 @@
 		"initialSize": 103556,
 		"inputAbbreviatedPath": "\/images\/header.jpg",
 		"outputAbbreviatedPath": "\/images\/header.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/header_mobile@2x.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 60419,
+		"inputAbbreviatedPath": "\/images\/header_mobile@2x.jpg",
+		"outputAbbreviatedPath": "\/images\/header_mobile@2x.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -247,154 +309,77 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/jas_dames_zwart_oud.png": {
+	"\/images\/pour_elle.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/images\/jas_dames_zwart_oud.png",
-		"outputAbbreviatedPath": "\/images\/jas_dames_zwart_oud.png",
+		"initialSize": 677,
+		"inputAbbreviatedPath": "\/images\/pour_elle.png",
+		"outputAbbreviatedPath": "\/images\/pour_elle.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/jas_heren_grijs.png": {
+	"\/images\/pour_lui.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 63091,
-		"inputAbbreviatedPath": "\/images\/jas_heren_grijs.png",
-		"outputAbbreviatedPath": "\/images\/jas_heren_grijs.png",
+		"initialSize": 668,
+		"inputAbbreviatedPath": "\/images\/pour_lui.png",
+		"outputAbbreviatedPath": "\/images\/pour_lui.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/jas_heren_rood.png": {
+	"\/images\/titel_coat_down.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 66446,
-		"inputAbbreviatedPath": "\/images\/jas_heren_rood.png",
-		"outputAbbreviatedPath": "\/images\/jas_heren_rood.png",
+		"initialSize": 1031,
+		"inputAbbreviatedPath": "\/images\/titel_coat_down.png",
+		"outputAbbreviatedPath": "\/images\/titel_coat_down.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/logo.png": {
+	"\/images\/titel_coat_fleece.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 5334,
-		"inputAbbreviatedPath": "\/images\/logo.png",
-		"outputAbbreviatedPath": "\/images\/logo.png",
+		"initialSize": 663,
+		"inputAbbreviatedPath": "\/images\/titel_coat_fleece.png",
+		"outputAbbreviatedPath": "\/images\/titel_coat_fleece.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/pin.png": {
+	"\/images\/titel_veste_duvet.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1967,
-		"inputAbbreviatedPath": "\/images\/pin.png",
-		"outputAbbreviatedPath": "\/images\/pin.png",
+		"initialSize": 932,
+		"inputAbbreviatedPath": "\/images\/titel_veste_duvet.png",
+		"outputAbbreviatedPath": "\/images\/titel_veste_duvet.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/schaduw.png": {
+	"\/images\/titel_veste_polaire.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 2130,
-		"inputAbbreviatedPath": "\/images\/schaduw.png",
-		"outputAbbreviatedPath": "\/images\/schaduw.png",
+		"initialSize": 832,
+		"inputAbbreviatedPath": "\/images\/titel_veste_polaire.png",
+		"outputAbbreviatedPath": "\/images\/titel_veste_polaire.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/section_bg.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 22832,
-		"inputAbbreviatedPath": "\/images\/section_bg.jpg",
-		"outputAbbreviatedPath": "\/images\/section_bg.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/titel_jas_donsjas.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2777,
-		"inputAbbreviatedPath": "\/images\/titel_jas_donsjas.png",
-		"outputAbbreviatedPath": "\/images\/titel_jas_donsjas.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/titel_jas_fleece.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2471,
-		"inputAbbreviatedPath": "\/images\/titel_jas_fleece.png",
-		"outputAbbreviatedPath": "\/images\/titel_jas_fleece.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/voor_haar.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1315,
-		"inputAbbreviatedPath": "\/images\/voor_haar.png",
-		"outputAbbreviatedPath": "\/images\/voor_haar.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/voor_hem.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1327,
-		"inputAbbreviatedPath": "\/images\/voor_hem.png",
-		"outputAbbreviatedPath": "\/images\/voor_hem.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/waterdicht.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 868,
-		"inputAbbreviatedPath": "\/images\/waterdicht.png",
-		"outputAbbreviatedPath": "\/images\/waterdicht.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/winddicht.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 662,
-		"inputAbbreviatedPath": "\/images\/winddicht.png",
-		"outputAbbreviatedPath": "\/images\/winddicht.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/index.html": {
+	"\/index-oud.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/index.html",
+		"inputAbbreviatedPath": "\/index-oud.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -436,6 +421,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/stylesheets\/sass\/partials\/base.scss",
 		"outputAbbreviatedPath": "\/stylesheets\/sass\/css\/base.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/stylesheets\/sass\/partials\/modules.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/stylesheets\/sass\/partials\/modules.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/sass\/css\/modules.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -862,6 +863,10 @@
 			"flagValue": -1
 			},
 		"shelljs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"singleGroups": {
 			"active": 0,
 			"flagValue": -1
 			},

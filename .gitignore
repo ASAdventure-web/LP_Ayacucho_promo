@@ -1,7 +1,5 @@
 # Ignore sass-cache
-**/.sass-cache
-**/.sass-cache/
-*.scssc
+**/.sass-cache/*
 
 # Ignore sftp
 **/sftp-config.json
